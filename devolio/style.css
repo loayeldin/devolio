@@ -1,0 +1,504 @@
+body
+{
+    background-color:#f2f2f2;
+   
+    font-family: 'Cairo', sans-serif;
+}
+/*start first ection*/
+.first-slider
+{
+    background-image: url('intro-bg.jpg');
+    background-size: 100% 100%;
+   
+    height:700px;
+    background-attachment: fixed;
+    position: relative;
+}
+.first-slider .navigation 
+{
+    /* position: absolute !important;
+
+    
+    top: 0; */
+    /* position: fixed !important; */
+    padding:15px;
+    width: 100%;
+    background-color: transparent !important;
+    font-size:21px !important;
+}
+.navigation .container h2 a
+{
+    font-size:28px !important;
+    text-transform:capitalize;
+    color:white;
+    text-decoration: none;
+} 
+.navigation ul li 
+{
+    padding:10px;
+} 
+/* .navigation ul li:hover 
+{
+    border-bottom:2px solid white
+} */
+/* .line 
+{
+    border-bottom:3px solid white
+    
+} */
+
+.welcome
+{
+    width:50%;
+    /* position: absolute;
+    left:28%;
+    top:35%; */
+    
+    
+ 
+    color:white;
+    font-size:3rem !important;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50);
+   
+  
+   
+    
+}
+.welcome h3 
+{
+    font-size:4rem ;
+   
+   
+
+}
+.welcome h4
+{
+    font-size: 2rem;
+}
+
+/* end first section*/
+
+/* start second section*/
+. 
+{
+    background-color: #f2f2f2;
+    padding-top: 50px;
+}
+.about-me 
+{
+    
+    border:1px solid  #e6e6e6;
+    height:550px;
+    padding-top:50px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color: white;
+   
+}
+
+.about-me .image 
+{
+    width:170px;
+    height:150px;
+    
+}
+.about-me .image img 
+{
+    width:100%;
+    height:100%;
+}
+.about-me .defination
+{
+    font-weight: bold;
+    text-transform: capitalize;
+    color:black
+}
+.about-me h4 
+{
+    margin-top:10px;
+    margin-bottom:10px;
+    text-transform: capitalize;
+    
+}
+.about-me p 
+{
+    font-size:17px;
+    color:#777
+}
+.progress
+{
+    margin-top:10px;
+    background-color: #ccccff !important;
+}
+.right p 
+{
+    line-height:1.8;
+}
+.right h2 
+{
+    text-transform: capitalize;
+    
+}
+.right hr 
+{
+  font-weight: bold;
+  width:20%;
+  float:left;
+  height:2px;
+  background-color: #0069d9;
+}
+/* satrt services */
+.services 
+{
+    padding-top:40px;
+    
+  
+}
+.services h2, .services p 
+{
+    text-align: center;
+}
+.services h2 
+{
+    font-weight: bold;
+    font-size:3.5rem
+}
+hr
+{
+    font-weight: bold;
+    width:5%;
+    height:3px;
+    background-color: #0069d9;
+}
+.services .card 
+{
+    margin-top:15px !important;
+    border-radius: 25px;
+}
+.services .card-body 
+{
+   
+    text-align:center !important;
+
+}
+
+.services i
+{
+    font-size:4rem;
+    padding:20px;
+    border-radius: 50%;
+    transition: .5s all;
+    border:10px solid #0069d9
+
+}
+
+.services i:hover 
+{
+border:10px solid #d6d6f5;
+background-color: #0069d9;
+color:white;
+}
+.services .card h5 
+{
+    margin:10px;
+    text-transform: capitalize;
+}
+
+/* end services */
+
+/* start third section*/
+
+.counter
+{
+    background-image: url('images/post-3.jpg');
+    background-size: auto; 
+    margin-top: 40px;
+    background-attachment: fixed;
+
+  
+  
+    background-position: ;
+
+}
+.overlay 
+{
+    background-color:rgb(51, 102, 255,.6) ;
+    color:white;
+   padding:7rem;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+}
+.counter .overlay i 
+{
+    color:white;
+    border:11px solid white;
+   
+    font-size:2rem;
+    padding:15px;
+    border-radius: 50%;
+}
+.counter .overlay h4 
+{
+    font-size:28px;
+    font-weight: bold;
+    margin:10px;
+}
+.counter .overlay p
+{
+    font-size: 19px;
+}
+/* start section four our-port*/
+.our-port
+{
+    margin-top:50px;
+   
+   
+}
+.our-port h2, .our-port> p 
+{
+    text-align: center;
+}
+.our-port h2 
+{
+    font-weight: bold;
+    font-size:3.5rem
+}
+.our-port .card 
+{
+    margin:30px 0;
+    overflow: hidden;
+}
+.our-port .card-text 
+{
+    color: #0069d9;
+
+}
+.our-port .card-body i 
+{
+   color:#0069d9;
+   border:1px solid #0069d9;
+   padding:5px;
+   font-size:1.2rem;
+   border-radius: 50%;
+   margin-left:5rem;
+    
+}
+.our-port .card .overlay1
+{
+    overflow: hidden;
+    position: relative;
+    z-index:0;
+}
+.our-port .card .overlay1 img 
+{
+    transition:1.5s all;
+
+}
+
+
+.our-port .card:hover img 
+{
+    transform:scale(1.4)
+}
+
+/*end our port*/
+
+/* start slider section*/
+.sec-slider
+{
+    background-image:url('images/overlay-bg.jpg');
+    background-size:100% 100%;
+   background-attachment: fixed;
+   margin-top:40px;
+    /* padding:4rem 0 10rem 0 ; */
+   
+ 
+}
+.sec-slider .cover 
+{
+    background-color: rgb(51, 102, 255,.6);
+    padding-bottom:5rem
+    
+  
+}
+.sec-slider .cover li 
+{
+    height:7px;
+}
+.sec-slider .carousel-item 
+{
+   
+    margin-top: 10px;
+    height: 400px;
+    padding-top:2rem;
+  
+
+}
+.sec-slider .carousel-item img 
+{
+    border-radius:50%;
+    position: absolute;
+    left:43%;
+    margin-top:10px;
+ 
+   
+}
+
+
+
+
+
+.sec-slider .carousel-item .carousel-caption h5
+
+{
+   
+   text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px !important;
+    font-size:30px;
+}
+
+.sec-slider .carousel-item .carousel-caption p 
+{
+    
+    font-size: 22px;
+    margin-top: 10px;
+}
+footer 
+{
+    text-align:center;
+    background-color: #333333 ;
+    color:#888;
+   
+    padding-bottom:20px;
+}
+
+footer i 
+{
+    font-size:20px;
+    margin-top:40px;
+    margin-bottom:5px;
+    cursor:pointer;
+    color:white;
+    margin-left:10px;
+}
+footer i:hover 
+{
+    color:#0069d9
+}
+footer p 
+{
+    text-transform: capitalize;
+    font-size:18px;
+    color:white;
+    margin-bottom:35px;
+   
+   
+
+}
+footer a 
+{
+    color:#f53461;
+ 
+} 
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+.welcome
+{
+    
+   
+    width:85%;
+    
+ 
+    top: 40%
+  
+   
+    
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .about-me{height: 1200px; margin-top: 40px;}
+
+    .about-me .img-container
+    {
+        text-align: center;
+    }
+    .about-me .image img 
+{
+    width:40%;
+   
+}
+.welcome
+{
+    
+   
+    width:85%;
+    
+ 
+    top: 40%
+  
+   
+    
+}
+}
+
+@media (max-width: 767px)
+{
+    .about-me{height: 1300px; margin-top: 40px;}
+
+    .about-me .img-container
+    {
+        text-align: center;
+    }
+    .about-me .image img 
+    {
+        width:40%;
+    
+    }
+    .welcome
+{
+   
+    width:85%;
+    
+ 
+    top: 40%
+  
+   
+    
+}
+
+  
+}
+@media (max-width:576px)
+{
+    .about-me{height: 1400px; margin-top: 40px;}
+    .about-me .img-container
+    {
+        text-align: left !important;
+    }
+    .about-me p 
+    {
+        font-size: 15px;
+    }
+
+
+.welcome
+{
+   
+    width:85%;
+    
+ 
+    top: 40%
+  
+   
+    
+}
+   
+}
+
+
